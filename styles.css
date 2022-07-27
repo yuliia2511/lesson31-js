@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.arr, .num, button {
+    font-size: 20px;
+}
+
+button {
+    background: rgb(165, 201, 242);
+}
+
+h5 {
+    color: rgb(165, 201, 242);
+    font-size: 18px;
+}
