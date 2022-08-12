@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="task_container">
+        <h3>Завдання 1</h3>
+        <h5>Умова: створи функцію, яка буде виводити кількість переданих <br> їй аргументів.</h5>
+        <div class="task_1">
+            <form action="javascript:">
+                <label for="arr">Введи будь-які числа:</label>
+                <input class="arr" type="text" name="arr" required>
+                <button class="first_btn" onclick="checkLength()">Перевір!</button>
+            </form>
+            <div>
+                <p>Кількість введених чисел: <span class="task1Answer"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="task_container">
+        <h3>Завдання 2</h3>
+        <h5>Умова: напиши функцію, яка обчислює факторіал переданого <br> їй числа.</h5>
+        <div class="task_2">
+            <form action="javascript:">
+                <label for="num">Введи число:</label>
+                <input class="num" type="number" name="num" required>
+                <button class="second_btn" onclick="getFactorial()">Перевір!</button>
+            </form>
+            <div>
+                <p>Факторіал числа: <span class="task2Answer"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="task_container">
+        <h3>Завдання 3</h3>
+        <h5>Умова: напиши функцію, яка приймає три окремі цифри і <br> перетворює їх в одне число. Наприклад: цифри 1, 4, 9 <br> перетворяться в число 149.</h5>
+        <div class="task_3">
+            <form action="javascript:">
+                <p>Введи число:</p>
+                <input class="num1" type="text" name="num1" required>
+                <input class="num2" type="text" name="num2" required>
+                <input class="num3" type="text" name="num3" required>
+                <button class="third_btn" onclick="getRow()">Перевір!</button>
+            </form>
+            <div>
+                <p>Отримане число: <span class="task3Answer"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="task_container">
+        <h3>Завдання 4</h3>
+        <h5>Умова: напиши функцію, яка приймає 2 числа і повертає : <br>
+            -1, якщо перше число менше, ніж друге; <br>
+            1 - якщо перше число більше, ніж друге; <br>
+            0 - якщо числа рівні.</h5>
+        <div class="task_4">
+            <form action="javascript:">
+                <label for="arg">Введи число:</label>
+                <input class="arg" type="text" name="arg" required>
+                <label for="arg2">Введи число:</label>
+                <input class="arg2" type="text" name="arg2" required>
+                <button class="forth_btn" onclick="findCommonNumber()">Перевір!</button>
+            </form>
+            <div>
+                <p>Функція повертає: <span class="task4Answer"></span></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
