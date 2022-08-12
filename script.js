@@ -24,9 +24,11 @@ function getFactorial() {
 document.querySelector('.third_btn').onclick = getRow
 
     function getRow() {
-        let a = document.querySelector('.num2').value; 
-        let b = (а) => a.join('');
-        document.querySelector('.task3Answer').innerHTML = b;
+        let num1 = document.querySelector('.num1').value; 
+        let num2 = document.querySelector('.num2').value; 
+        let num3 = document.querySelector('.num3').value; 
+        let allNumbers = num1.toString() + num2.toString() + num3.toString();
+        document.querySelector('.task3Answer').innerHTML = allNumbers;
     } 
 //
 
